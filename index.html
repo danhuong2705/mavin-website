@@ -2,6 +2,7 @@
 <html itemscope="" itemtype="http://schema.org/WebPage" lang="en">
 
 <head>
+    <link href="./favicon.ico" rel="icon">
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="csrf-token" content="vrVzB0ZbQTErhq5SdtOGs4SOeLlF7pc1cr2snuAt" />
@@ -166,18 +167,19 @@
         <div class="container relative">
             <div class="row col-mar-0 row-ibl middle">
                 <div class="col-lg-3 col-md-2 col-xs-10 md-center sm-left">
-                    <a class="logo" href="/index.html" title="">
-                        <img style="width: auto; height: 70px; object-fit: contain;" src="./frontend/images/logo.jpeg"
+                    <a class="logo" href="./index.html" title="">
+                        <img style="width: auto; height: 70px; object-fit: contain;" src="./frontend/images/logo.png"
                             alt="" />
                     </a>
                 </div>
                 <div class="col-lg-9 col-md-10 col-xs-2 text-right static">
                     <div class="main-bar">
+                        <button class="menu-btn"><i class="menu-btn-bar"></i></button>
                         <nav class="main-nav">
                             <ul>
                                 <li><a class="smooth" href="/index.html" title="">HOME</a>
                                 </li>
-                                <li><a class="smooth" href="#service" title="">SERVICES</a>
+                                <li><a class="smooth" href="#services" title="">SERVICES</a>
                                 </li>
                                 <li><a class="smooth" href="#testimonial" title="">TESTIMONIAL</a>
                                 </li>
@@ -436,9 +438,9 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 
     <div class="exp-20 bg">
         <div class="container">
-            <img class="margin-auto" src="https://panservices.vn/uploads/contents/25nam-EN.png" alt="">
+            <img class="margin-auto" src="./uploads/contents/25nam-EN.png" alt="">
             <div class="s-content">
-                Mavin is a member of Nihon Housing Group that specializes in providing industrial cleaning and
+                Mavin specializes in providing industrial cleaning and
                 facility services for enterprises and organizations, including foreign partners in Vietnam.<br />
                 <br />
                 Mavin is proud to be the leader in industrial cleaning and facility services to customers
@@ -449,7 +451,7 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
         </div>
     </div>
 
-    <div class="h-service flower-fn">
+    <div id="services" class="h-service flower-fn">
         <div class="container">
             <div class="md-head">
                 <h2 class="title">Our Services</h2>
@@ -494,7 +496,7 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
                             <!-- <a class="more smooth" href="https://panservices.vn/en/services/cleaning-services"
                                 title="">Read more <i class="fa fa-angle-double-right"></i></a> -->
                             <div class="icon">
-                                <img class="smooth" src="https://panservices.vn/uploads/services/ic1.png" alt="">
+                                <img class="smooth" src="./uploads/services/ic1.png" alt="">
                                 <img class="smooth" src="https://panservices.vn/uploads/services/ic11.png" alt="">
                             </div>
                         </li>
@@ -502,10 +504,10 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
                             <h3 class="title smooth"><a href="https://panservices.vn/en/services/nursing-aide"
                                     title="">Nursing Aide</a></h3>
                             <p>Mavin delivers a professional nurse's aid service to hospital, health car...</p>
-                            <a class="more smooth" href="https://panservices.vn/en/services/nursing-aide" title="">Read
-                                more <i class="fa fa-angle-double-right"></i></a>
+                            <!-- <a class="more smooth" href="https://panservices.vn/en/services/nursing-aide" title="">Read
+                                more <i class="fa fa-angle-double-right"></i></a> -->
                             <div class="icon">
-                                <img class="smooth" src="https://panservices.vn/uploads/services/ic2.png" alt="">
+                                <img class="smooth" src="./uploads/services/ic2.png" alt="">
                                 <img class="smooth" src="https://panservices.vn/uploads/services/ic22.png" alt="">
                             </div>
                         </li>
@@ -516,29 +518,27 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
                             <!-- <a class="more smooth" href="https://panservices.vn/en/services/landscaping-services"
                                 title="">Read more <i class="fa fa-angle-double-right"></i></a> -->
                             <div class="icon">
-                                <img class="smooth" src="https://panservices.vn/uploads/services/ic3.png" alt="">
+                                <img class="smooth" src="./uploads/services/ic3.png" alt="">
                                 <img class="smooth" src="https://panservices.vn/uploads/services/ic33.png" alt="">
                             </div>
                         </li>
                         <li data-target="#h-ser-slider" data-slide-to="3" class="">
-                            <h3 class="title smooth"><a href="https://panservices.vn/en/services/pest-control-services"
-                                    title="">Pest Control Services</a></h3>
+                            <h3 class="title smooth"><a href="" title="">Pest Control Services</a></h3>
                             <p>With our expert teams in pest control, Mavin delivers the following servi...</p>
                             <!-- <a class="more smooth" href="https://panservices.vn/en/services/pest-control-services"
                                 title="">Read more <i class="fa fa-angle-double-right"></i></a> -->
                             <div class="icon">
-                                <img class="smooth" src="https://panservices.vn/uploads/services/ic4.png" alt="">
+                                <img class="smooth" src="./uploads/services/ic4.png" alt="">
                                 <img class="smooth" src="https://panservices.vn/uploads/services/ic44.png" alt="">
                             </div>
                         </li>
                         <li data-target="#h-ser-slider" data-slide-to="4" class="">
-                            <h3 class="title smooth"><a href="https://panservices.vn/en/services/facility-management"
-                                    title="">Facility Management</a></h3>
+                            <h3 class="title smooth"><a href="" title="">Facility Management</a></h3>
                             <p>Provides general maintenance services, facilities management services and long-t...</p>
                             <!-- <a class="more smooth" href="https://panservices.vn/en/services/facility-management"
                                 title="">Read more <i class="fa fa-angle-double-right"></i></a> -->
                             <div class="icon">
-                                <img class="smooth" src="https://panservices.vn/uploads/services/ic5.png" alt="">
+                                <img class="smooth" src="./uploads/services/ic5.png" alt="">
                                 <img class="smooth" src="https://panservices.vn/uploads/services/ic55.png" alt="">
                             </div>
                         </li>
@@ -662,7 +662,7 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
             <div class="row col-mar-0">
                 <div class="col-md-3 col-xs-6">
                     <div class="item">
-                        <strong>25</strong>
+                        <strong>8</strong>
                         <p>Years Of Experience</p>
                     </div>
                 </div>
@@ -722,7 +722,7 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
                     <img src="https://panservices.vn/uploads/customers/thumb_mekophar.jpg" alt="">
                 </a>
             </div>
-            <div class="testimonial">
+            <div id="testimonial" class="testimonial">
                 <h2>CLIENT TESTIMONIALS</h2>
                 <div class="testi-cas">
                     <div class="item">
@@ -1127,7 +1127,7 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 
     </footer>
     <p></p>
-    <div class="back-to-top smooth"><i class="fa fa-angle-up" aria-hidden="true"></i></div>
+    <!-- <div class="back-to-top smooth"><i class="fa fa-angle-up" aria-hidden="true"></i></div> -->
 
     <script src="https://panservices.vn/frontend/js/jquery-2.2.1.min.js"></script>
     <script src="https://panservices.vn/frontend/js/jquery-ui.min.js"></script>
